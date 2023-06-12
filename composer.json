@@ -1,0 +1,33 @@
+{
+    "name": "drewlabs/envoyer-smpp",
+    "description": "SMPP driver for drewlabs envoyer client",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "ext-mbstring": "*",
+        "drewlabs/envoyer-contracts": "^0.2.0",
+        "drewlabs/net": "^0.2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=6.0",
+        "drewlabs/envoyer": "^0.2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Drewlabs\\Envoyer\\Drivers\\Smpp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "azandrew-sidoine",
+            "email": "asmyns.platonnas29@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",    
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
