@@ -23,7 +23,7 @@ class SmppAdapterTest extends TestCase
 {
     public function test_smpp_adapter_send_request()
     {
-        $config = require __DIR__.'/config/drivers.php';
+        $config = require __DIR__.'/configs/drivers.php';
         
         // Create
         $adapter = new Adapter(new ClientSecretKeyServer($config['host'], intval($config['port']), $config['user'], $config['password']));
