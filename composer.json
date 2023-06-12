@@ -1,5 +1,5 @@
 {
-    "name": "drewlabs/envoyer-smpp",
+    "name": "drewlabs/envoyer-smpp-v3",
     "description": "SMPP driver for drewlabs envoyer client",
     "type": "library",
     "require": {
